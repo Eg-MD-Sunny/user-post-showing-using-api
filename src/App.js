@@ -23,9 +23,12 @@ function LoadPosts(){
 	return (
 		<div>
 			<h1>Load Posts: {posts.length}</h1>
-			{
-				posts.map(post=><Post title={post.title} body={post.body}></Post>)
-			}
+			<div className="allignment">
+				{
+					posts.map(post=><Post title={post.title} body={post.body}></Post>)
+				}
+			</div>
+			
 		</div>
 	)
 }

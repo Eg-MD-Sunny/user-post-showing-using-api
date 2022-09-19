@@ -1,5 +1,8 @@
 .App {
   text-align: center;
 }
-
+.allignment{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
 
